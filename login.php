@@ -21,18 +21,28 @@ if(isset($_POST["submit"])){
   <head>
     <meta charset="utf-8">
     <title>Login</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
     <h2>Login</h2>
     <form class="" action="" method="post">
-      <label for="unameemail">Enter username or email </label>
-      <input type="text" name="unameemail" id="unameemail" required value=""><br>
+      <div class="container">
+        <label for="unameemail">Enter username or email </label>
+        <input type="text" name="unameemail" id="unameemail" required value=""><br>
 
-      <label for="pword">Enter Password: </label>
-      <input type="password" name="pword" id="pword" required value=""><br>
-      <button type="submit" name="submit">Login</button>
+        <label for="pword">Enter Password: </label>
+        <input type="password" name="pword" id="pword" required value=""><br>
+        <button type="submit" name="submit">Login</button>
+
+      </div>
     </form>
+    <div class="container">
+      <a href="registration.php">
+      <button>Register</button>
+      </a>
+    </div>
+
 <br>
-<a href="registration.php">Register</a>
+
   </body>
 </html>

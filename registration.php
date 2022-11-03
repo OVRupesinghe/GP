@@ -33,54 +33,59 @@ if(isset($_POST["submit"])){
   <head>
     <meta charset="utf-8">
     <title>Registration</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
     <h2>Registration</h2>
 
     <form class="" action="" method="post">
+      <div class="container">
+        <label for="fname">FirstName : </label>
+        <input type="text" name="fname" id="fname" required value=""><br>
 
-      <label for="fname">FirstName : </label>
-      <input type="text" name="fname" id="fname" required value=""><br>
+        <label for="lname">LastName : </label>
+        <input type="text" name="lname" id="lname" required value=""><br>
 
-      <label for="lname">LastName : </label>
-      <input type="text" name="lname" id="lname" required value=""><br>
+        <label for="contact">Contact No. : </label>
+        <input type="text" name="contact" id="contact" required value=""><br>
 
-      <label for="contact">Contact No. : </label>
-      <input type="text" name="contact" id="contact" required value=""><br>
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" required value=""><br>
 
-      <label for="email">Email : </label>
-      <input type="email" name="email" id="email" required value=""><br>
+        <label for="address">Address : </label>
+        <input type="text" name="address" id="address" required value=""><br>
 
-      <label for="address">Address : </label>
-      <input type="text" name="address" id="address" required value=""><br>
+        <label for="nic">NIC: </label>
+        <input type="text" name="nic" id="nic" required value=""><br>
 
-      <label for="nic">NIC: </label>
-      <input type="text" name="nic" id="nic" required value=""><br>
+        <label for="uname">User Name: </label>
+        <input type="text" name="uname" id="uname" required value=""><br>
 
-      <label for="uname">User Name: </label>
-      <input type="text" name="uname" id="uname" required value=""><br>
+        <label for="pword">Password: </label>
+        <input type="password" name="pword" id="pword" required value=""><br>
 
-      <label for="pword">Password: </label>
-      <input type="password" name="pword" id="pword" required value=""><br>
+        <label for="cpword">Confirm Password: </label>
+        <input type="password" name="cpword" id="cpword" required value=""><br>
 
-      <label for="cpword">Confirm Password: </label>
-      <input type="password" name="cpword" id="cpword" required value=""><br>
+        <label for="dob">Date of birth: </label>
+        <input type="date" name="dob" id="dob" required value=""><br>
 
-      <label for="dob">Date of birth: </label>
-      <input type="date" name="dob" id="dob" required value=""><br>
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="age" required value=""><br>
 
-      <label for="age">Age: </label>
-      <input type="text" name="age" id="age" required value=""><br>
+        <label for="uni">University: </label>
+        <input type="text" name="uni" id="uni" required value=""><br>
 
-      <label for="uni">University: </label>
-      <input type="text" name="uni" id="uni" required value=""><br>
+        <label for="location">University Location: </label>
+        <input type="text" name="location" id="location" required value=""><br>
 
-      <label for="location">University Location: </label>
-      <input type="text" name="location" id="location" required value=""><br>
-
-      <input type="submit" name="submit">Register</input>
-
+        <button type="submit" name="submit">Register</button>
+      </div>
     </form>
-    <a href="login.php">Login</a>
+    <div class="container">
+      <a href="login.php">
+      <button>Login</button>
+      </a>
+    </div>
   </body>
 </html>
