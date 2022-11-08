@@ -1,0 +1,42 @@
+.container {
+    padding: 16px;
+    display:flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #1A285A;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #1A285A;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #D9D9D9;
+}
+
+
+.box-0{
+  text-align: center;
+  color: white;
+  flex:1;
+}
+
+.box-1{
+  color: white;
+  flex: 1;
+}
+.box-2{
+  flex:1;
+}
+.box-3{
+  color: white;
+  flex:1;
+}
+.box-4{
+  flex:1;
+}
+.box-5{
+  flex:1;
+}
+.box-6{
+  flex:1;
+}
